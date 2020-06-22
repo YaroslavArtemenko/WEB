@@ -1,0 +1,3 @@
+admin@google.com|admin|191120171511|Комментарии будут добавлены на страницу только после того, как их обработает администратор.
+Для того, чтобы оставить комментарий, нужно быть зарегистрированным в системе.|1*admin@google.com|yarok|191120171515|Зарегистрировался и добавил|2*admin@google.com|tonya|191120171836|prekrasnij sajt|3*admin@google.com|yarok|251120171403|allahuakbar
+|4*admin@google.com|yarok|251120171600|knkmn,nn lkhkj nkl|5*admin@google.com|trueog|021220172218|,fd klb dk hfiuhdfknrfhguir|6*

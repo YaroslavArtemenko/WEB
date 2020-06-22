@@ -1,0 +1,339 @@
+html{
+	color:#585858;
+}
+
+body{
+	font-size:11pt;
+	font-family: Arial, Times New Roman, sans-serif;
+}
+
+/*--------------------------------------------------------*/
+
+#page{
+	margin:auto;
+}
+
+/*--------------------------------------------------------*/
+
+/*Header -------------------------------------------------*/
+
+#head{
+	background: url(images/topfoto.jpg) no-repeat;
+	background-size: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: relative;
+	top:-1.5em;
+    height: 500px;
+    opacity: 0.8;
+}
+
+.hidden{
+	visibility: hidden;
+}
+
+#hh1{
+	visibility: hidden;
+}
+
+
+/*Tristan-------------------------------------------------*/
+
+#ccontainer .descript{
+	width: inherit;
+	text-align: center;
+	position: relative;
+	text-decoration: none;
+	color:rgb(0,70,0);
+	font-size: 6em;
+	font-style: italic;
+	font-weight: bolder;
+	font-family: Times New Roman;
+}
+
+/*--------------------------------------------------------*/
+
+
+/*Menu navigation-----------------------------------------*/
+
+#menu{
+	color: #ffffff;
+	width: 80%;
+	min-width: 650px;
+	height: 100px;
+	position: relative;
+	top:-4em;
+	overflow: none;
+	background-color: rgba(255,255,255,0.9);
+	left: 8em;
+}
+
+
+#menu .inside{
+	background: url(images/logo1.png) no-repeat;
+	background-position: 30px 20px;
+}
+
+.main{
+	list-style-type: none;
+	margin: auto;
+	height: inherit;
+	overflow: auto;
+}
+
+.main a{
+	color:#000000;
+	text-decoration: none;
+}
+
+.main li{
+	color: white;
+	display: inline-block;
+	float: left;
+	margin: 40px 15px;
+	font-size:1em;
+	position: relative;
+	left:42%;
+}
+
+.line{
+	border-left: 2px solid #000000; 
+    margin-left: 10px; 
+    padding-left: 5px; 
+}
+
+
+/*Основной контент----------------------------------------------*/
+/*Question.html-------------------------------------------------*/
+#content_que{
+	height: 1600px;
+}
+/*reg.html-----------------------------------------------------*/
+#content_registr{
+	height: 1300px;
+}
+/*mainQuestion.html--------------------------------------------*/
+#registration{
+	border-color:green;
+}
+#administration{
+	border-color: blue;
+}
+
+#MyP{
+	margin-left: 5em;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+#adminRight{
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+#vvod{
+	margin-left: 5em;
+	margin-right: 5em;
+}
+
+#content_mainque{
+	height: 550px
+}
+
+
+
+/*-------------------------------------------------------------*/
+#content{
+	height: 800px;
+}
+
+#text{
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+.content{
+	float: left;
+	display: table;
+}
+
+.cols p{
+	font-family: Arial;
+	line-height: 20px;
+	font-weight: 50;
+	float: left;
+	font-size:1.2em;
+	text-align: justify;
+	line-height: 40px;
+	text-indent: 50px;
+}
+
+/*Question.html-------------------------------------------------*/
+.cols_contact p{
+	font-family: Arial;
+	line-height: 20px;
+	font-weight: 50;
+	float: left;
+	font-size:1.2em;
+	text-align: center;
+	margin-left: 350px;
+	line-height: 40px;
+	text-indent: 50px;
+	margin-top: 2em;
+	margin-bottom: 4em;
+}
+/*-------------------------------------------------------------*/
+
+
+/*Партнеры----------------------------------*/
+
+
+
+
+hr{
+	background-color:#585858;
+	height: 2px;
+	color:#585858;
+	width: 100%;
+}
+
+#partners{
+	
+	width: 100%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+
+#partners h2{
+	text-align: center;
+	margin-bottom: 40px;
+	margin-top: 20px;
+}
+
+
+#topgal{
+	margin-top: 2em;
+}
+
+#topgal a {
+	display: block;
+	width: 150px;
+	height: 100px;
+	float: left;
+	margin-left: 32px;
+	margin-right: 32px;
+}
+
+#topgal img{
+	width: 150px;
+	height: 100px;
+}
+
+
+.zoom { 
+    width:293px; 
+    height:170px; 
+    display:block; 
+    position:relative; 
+    overflow:hidden; 
+    border:1px solid #ddd; 
+    background:#fff url(../images/loader.gif) no-repeat center;
+}
+
+    .zoom img { display:none }
+
+        .zoomOverlay {
+            position:absolute;
+            top:0; left:0;
+            bottom:0; right:0;
+            display:none;
+            background-image:url(../images/zoom.png);
+            background-repeat:no-repeat;
+            background-position:center;
+        }
+/*------------------------------------------*/
+#colls{
+	background: linear-gradient(to bottom right, #000, #fff);
+	height: 250px;
+	position: relative;
+	top:4em;
+	left: 4em;
+}
+
+#coll1,#coll2,#coll3,#coll4{
+	display: inline-block;
+	color: rgb(0,0,0);
+}
+
+#coll1,#coll4{
+	width:200px;
+}
+
+#coll2,#coll3{
+	width:300px;
+}
+
+#coll1,#coll2,#coll3,#coll4{
+	margin-left: 3em;
+}
+#coll1 h3{
+	position: relative;
+	top: -1em;
+}
+#coll3 h3,p{
+	position: relative;
+	top:1em;
+}
+#coll4 a{
+	position: relative;
+	top: 1em;
+}
+#coll2 p{
+	position: relative;
+	top: 1em;
+}
+
+/*Footer---------------------------------------------------*/
+
+
+#foot{
+	padding-bottom: 2em;
+	padding-top: 1.5em;
+	font-weight: 100;
+	font-family: Arial;
+}
+
+
+#foot .contact{
+	float: right;
+	overflow:auto;
+	padding-bottom: 1em;
+	margin-right: 15%;
+}
+
+#foot .copy{
+	float: left;
+	margin-bottom: 2em;
+	padding-bottom: 1em;
+	margin-left: 15%;
+}
+
+
+#foot a{
+	text-decoration: none;
+	color: #585858;
+}
+
+.anchor{
+	text-decoration: none;
+	position: relative;
+	left:23%;
+	background: url(images/up.png) no-repeat;
+	padding-top: 2em;
+}
+
+.anchor span{
+	visibility: hidden;
+}
+
+/*---------------------------------------------------------*/
